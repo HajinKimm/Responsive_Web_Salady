@@ -5,8 +5,9 @@ const inner = {
     boxSizing:'border-box',
     margin:'auto'
 }
+const colorOrange= '#EE7725'
+const colorGreen= '#17633D'
 export const HeaderWrap = styled.header`
-background: #ddd;
     .inner{
         ${inner}
         height: 100px;
@@ -29,7 +30,7 @@ background: #ddd;
         }
         span{
             display: block;
-            background: #EE7725;
+            background: ${colorOrange};
             width: 177px;
             height: 50px;
             line-height: 50px;
@@ -92,6 +93,7 @@ export const FooterWrap = styled.footer`
                 }
             }
         }
+
         .top{
             width: 120px;
             position: absolute;
@@ -111,13 +113,291 @@ export const FooterWrap = styled.footer`
     }
 `
 
-export const Con1Wrap = styled.section``
 
-export const Con2Wrap = styled.section``
+export const Con2Wrap = styled.section`
+    background: ${colorGreen};
+    position: relative;
+    height: 940px;
+    overflow: hidden;
+    .slick-prev{
+        z-index: 10;
+    }
+    .slick-prev:before{
+        content: url(./images/contents/PREV.png);
+        background: #000;
+        position: absolute;
+        bottom: -460px;
+        left: 835px;
+        width: 150px;
+        height: 80px;
+        border-radius: 100% 0% 0% 0%;
+        padding-top: 40px;
+        padding-left: 20px;
+        box-sizing: border-box;
+    }
+    .slick-next:before{
+        content: url(./images/contents/NEXT.png);
+        background: #000;
+        position: absolute;
+        bottom: -460px;
+        left: -950px;
 
-export const Con3Wrap = styled.section``
+        width: 150px;
+        height: 80px;
+        border-radius: 0% 100% 0% 0%;
+        padding-top: 40px;
+        padding-left: 0px;
+        box-sizing: border-box;
+    }
 
-export const Con4Wrap = styled.section``
+    .swiperList{
+        position: relative;
+        .bg{
+            img{
+                vertical-align: top;
+            }
+        }
+        .centerImg{
+               position: absolute;
+               top: 50%;
+               left: 50%;
+               transform: translate(-50%, -50%);
+        }
+        .text{
+            position: absolute;
+            top: 270px;
+            right: 340px;
+            /* padding-top: 270px; */
+            /* padding-left: 219px; */
+            color: white;
+            em{
+                font-size: 22px;
+            }
+            strong{
+                margin-top: 20px;
+                display: block;
+                font-size: 100px;
+                line-height: 1;
+                font-weight: 700;
+                margin-bottom: 10px;
+            }
+            b{
+                font-size: 40px;
+            }
+            p{
+                margin-top: 30px;
+                margin-bottom: 30px;
+                font-size: 18px;
+            }
+            .morewrap{
+                display: flex;
+                align-items: center;
+                img{
+                    height: 65px;
+                }
+                span{
+                    display: inline-block;
+                    padding-left: 15px;
+                }
+            }
+        }
+    }
+    .cs{
+        position: absolute;
+        top: 310px;
+        right: 75px;
+        img{
+            width: 60px;
+        }
+        span{
+            display: block;
+            text-align: center;
+            color: white;
+            margin-top: 13px;
+            margin-bottom: 27px;
+        }
+    }
+    .pageNum{
+        position: absolute;
+        bottom: 40px;
+        left: 925px;
+        /* transform: translateX(-50%); */
+        z-index: 100;
+        span{
+            text-align: center;
+            line-height: 65px;
+            display: block;
+            width: 65px;
+            height: 65px;
+            font-size: 25px;
+            color: #fff;
+            border: 1px solid #fff;
+            border-radius: 50%;
+        }
+    }
+
+`
+
+export const Con3Wrap = styled.section`
+background: #F3F3F3;
+position: relative;
+    .inner{
+        ${inner}
+    }
+    .slick-prev:before{
+        content: url(./images/contents/icon-line.png);
+        transform: scale(0.5) ;
+        position: absolute;
+        top: -50px;
+        left: -100px;
+    }
+    .slick-next:before{
+        content: url(./images/contents/icon-lineR.png);
+        transform: scale(0.5) ;
+        position: absolute;
+        top: -50px;
+        left: 0px;
+    }
+    h2{
+        font-size: 40px;
+        font-weight: 700;
+        position: relative;
+        text-align: center;
+        padding-top: 80px;
+        margin-bottom: 110px;
+        &::after{
+            content: "";
+            position: absolute;
+            bottom: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 228px;
+            height: 4px;
+            background: ${colorOrange};
+        }
+    }
+    .conbox{
+        margin-bottom: 100px;
+        position: relative;
+        width: 332px;
+        .bg{
+            width: 332px;
+            height: 322px;
+            background: ${colorGreen};
+            border-radius: 50% 50% 0% 0%;
+            margin-bottom: 90px;
+        }
+        .imgbox{
+            position: absolute;
+            top: 130px;
+            left: 40px;
+        }
+        .text{
+            text-align: center;
+            h4{
+                font-weight: 500;
+                font-size: 25px;
+                margin-bottom: 15px;
+            }
+            p{
+                font-size: 15px;
+            }
+        }
+    }
+
+`
+
+export const Con4Wrap = styled.section`
+    position: relative;
+    .bg{
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: ${colorOrange};
+        width: 525px;
+        height: 925px;
+        border-radius: 25px 0px 0px 0px;
+    }
+    .inner{
+        padding: 158px 316px;
+        position: relative;
+        h2{
+            font-size: 40px;
+            font-weight: 700;
+            color: ${colorOrange};
+            margin-bottom: 130px;
+        }
+        ul{
+            position: absolute;
+            top: 175px;
+            left: 670px;
+            display: flex;
+            li{
+                margin-right: 90px;
+                font-weight: 500;
+                font-size: 20px;
+                position: relative;
+                &:nth-child(4)::after{
+
+                    content: "";
+                    position: absolute;
+                    bottom: -10px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 96%;
+                    height: 4px;
+                    background: ${colorGreen};
+                }
+            }
+        }
+        .content{
+            position: relative;
+            padding-left: 100px;
+            .desc{
+                h4{
+                    font-size: 35px;
+                    font-weight: 700;
+                    margin-bottom: 75px;
+                }
+                p{
+                    font-size: 20px;
+                    font-weight: 600;
+                    margin-bottom: 120px;
+                }
+                .morewrap{
+                    display: flex;
+                    align-items:center;
+                    img{
+                        width: 120px;
+                    }
+                    span{
+                        margin-left: 10px;
+                    }
+                }
+            }
+            .imgbox{
+                position: absolute;
+                top: -70px;
+                right: 120px;
+            }
+        }
+    }
+    .btnWrap{
+        .btn{
+            width: 50px;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .prevBtn{
+            left: 200px;
+        }
+        .nextBtn{
+            right: 200px;
+            transform: rotate(180deg);
+        }
+    }
+`
 
 export const Con5Wrap = styled.section`
 position: relative;
@@ -142,7 +422,7 @@ position: relative;
                 position: absolute;
                 top: 100px;
                 right: 54%;
-                background: #EE7725;
+                background: ${colorOrange};
                 width: 374px;
                 height: 34px;
                 z-index: -1;
@@ -152,7 +432,7 @@ position: relative;
                 position: absolute;
                 bottom: 22px;
                 left: 50%;
-                background: #17633D;
+                background: ${colorGreen};
                 width: 374px;
                 height: 34px;
                 z-index: -1;
@@ -178,7 +458,6 @@ position: relative;
         position: absolute;
         top: 50px;
         left: 0;
-        /* position: relative; */
         img{
             position: absolute;
             left: 0px;
@@ -212,13 +491,14 @@ export const Con6Wrap = styled.section`
     }
     .inner{
         ${inner}
+        width: 1160px;
     }
     .title{
-        padding: 113px;
+        padding: 113px 0px;
         font-size: 50px;
         font-weight: 900;
         strong{
-            color: #17633D;
+            color: ${colorGreen};
         }
         span.bar{
             position: relative;
@@ -229,7 +509,7 @@ export const Con6Wrap = styled.section`
                 left: -150px;
                 width: 334px;
                 height: 16px;
-                background: #EE7725;
+                background: ${colorOrange};
                 opacity: 0.6;
             }   
         }
@@ -237,7 +517,7 @@ export const Con6Wrap = styled.section`
     .icon{
         position: absolute;
         top: 190px;
-        right: 141px;
+        right: 0px;
         display: flex;
         img{
             width: 94px;
@@ -252,10 +532,8 @@ export const Con6Wrap = styled.section`
             
         }
     }
-    ul{
+    .mySwiper{
         margin-bottom: 160px;
-        display: flex;
-        justify-content: center;
         li{
             margin-right: 40px;
         }

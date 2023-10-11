@@ -1,5 +1,7 @@
 import React from 'react';
 import { Con6Wrap } from '../../styled/HomeStyle';
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
 
 const Con6 = () => {
     return (
@@ -16,13 +18,19 @@ const Con6 = () => {
                     <img src="./images/contents/icon-follow.png" alt="" />
                     <span>FOLLOW</span>
                 </div>
-                <ul>
-                    <li><img src="./images/contents/con6-1.png" alt="" /></li>
-                    <li><img src="./images/contents/con6-2.png" alt="" /></li>
-                    <li><img src="./images/contents/con6-3.png" alt="" /></li>
-                    <li><img src="./images/contents/con6-4.png" alt="" /></li>
-                </ul>
+                <Swiper className="mySwiper"
+                slidesPerView={4}
+                spaceBetween={40}>
+                    <SwiperSlide><img src="./images/contents/con6-1.png" alt="" /></SwiperSlide>
+                    <SwiperSlide><img src="./images/contents/con6-2.png" alt="" /></SwiperSlide>
+                    <SwiperSlide><img src="./images/contents/con6-3.png" alt="" /></SwiperSlide>
+                    <SwiperSlide><img src="./images/contents/con6-4.png" alt="" /></SwiperSlide>
+                    <SwiperSlide><img src="./images/contents/con6-1.png" alt="" /></SwiperSlide>
+                    <SwiperSlide><img src="./images/contents/con6-2.png" alt="" /></SwiperSlide>
+                    <SwiperSlide><img src="./images/contents/con6-3.png" alt="" /></SwiperSlide>
+                    <SwiperSlide><img src="./images/contents/con6-4.png" alt="" /></SwiperSlide>
 
+                </Swiper>
             </div>
             
         </Con6Wrap>

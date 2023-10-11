@@ -1,13 +1,13 @@
 import React from 'react';
 import GlobalStyle from './styled/Global';
-import {  BrowserRouter ,  Routes,  Route,  Link  } from "react-router-dom";
+import {  HashRouter ,  Routes,  Route,  Link  } from "react-router-dom";
 import Home from './pages/Home';
 import Layout from './pages/Layout';
 const App = () => {
   return (
     <>
       <GlobalStyle/>
-      <BrowserRouter>
+      <HashRouter style={{width:'100%'}}>
         
         <Routes>
           <Route path='/' element={<Layout/>}>
@@ -16,7 +16,7 @@ const App = () => {
           </Route>
         </Routes>
 
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 };
