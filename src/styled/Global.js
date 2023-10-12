@@ -9,11 +9,11 @@ const GlobalStyle = createGlobalStyle`
     font-size: 16px;
     line-height: 1.6;
     font-family: 'Noto Sans KR', sans-serif;
-    color:#333;
+    color:#000;
   }
   a{
     text-decoration: none;
-    color: #333;
+    color: #000;
   }
   li{
     list-style: none;

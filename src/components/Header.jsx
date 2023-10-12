@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { HeaderWrap } from '../styled/HomeStyle';
-
+import {HiBars3} from 'react-icons/hi2'
 const Header = () => {
     return (
         <HeaderWrap>
@@ -16,6 +16,7 @@ const Header = () => {
                         <li>새소식</li>
                     </ul>
                 </nav>
+                    <i className='allMenu'><HiBars3/></i>
                 <span>프랜차이즈</span>
             </div>
 

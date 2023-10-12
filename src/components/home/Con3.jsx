@@ -6,6 +6,20 @@ import 'slick-carousel/slick/slick-theme.css';
 const Con3 = () => {
     const settings = {
         slidesToShow: 4,
+        responsive: [ // 반응형 웹 구현 옵션
+            {  
+                breakpoint: 1023,
+                settings: {
+                    slidesToShow:2 
+                } 
+            },
+            { 
+                breakpoint: 767,
+                settings: {	
+                    slidesToShow:3
+                } 
+            }
+        ]
       };
     return (
         <Con3Wrap>

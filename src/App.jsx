@@ -7,7 +7,7 @@ const App = () => {
   return (
     <>
       <GlobalStyle/>
-      <HashRouter style={{width:'100%'}}>
+      <HashRouter style={{maxWidth: '1920px'}}>
         
         <Routes>
           <Route path='/' element={<Layout/>}>

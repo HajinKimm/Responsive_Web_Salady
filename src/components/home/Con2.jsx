@@ -7,11 +7,10 @@ import { visualArr } from "../../assets/api/visualList";
 const Con2 = () => {
     const [list , setList] = useState(visualArr);
     const [num , setNum] = useState(1);
-    // console.log(num)
     const settings = {
         slidesToShow: 1,
         infinite: false,
-        beforeChange: (current, next) => setNum(next+1)
+        beforeChange: (current, next) => setNum(next+1),
       };
     return (
         <Con2Wrap>
@@ -20,20 +19,23 @@ const Con2 = () => {
                 {
                     list.map(item=>
                         <div className="swiperList" key={item.id}>
-                            <div className='bg'>
-                                <img src={item.bgimg} alt="" />
-                            </div>
-                            
-                            <img src={item.centerimg} alt="" className='centerImg' />
-                            <div className="text">
-                                <em>New Menu</em>
-                                <strong>SPRING</strong>
-                                <b>HAPPY 2023</b>
-                                <p>향긋한 바질과 부드러운 닭가슴살의 만남</p>
-                                <div className='morewrap'>
-                                    <img src="./images/contents/icon-moreW.png" alt="" />
-                                    <span>More</span>
+                            <div className="item">
+                                <div className='bg' >
+                                    <div className="bgbox" style={{backgroundImage:`url(${item.bgimg})`}}></div>
+                                    <img src={item.centerimg} alt="" className='centerImg' />
                                 </div>
+                                
+                                <div className="text">
+                                    <em>New Menu</em>
+                                    <strong>SPRING</strong>
+                                    <b>HAPPY 2023</b>
+                                    <p>향긋한 바질과 부드러운 닭가슴살의 만남</p>
+                                    <div className='morewrap'>
+                                        <img src="./images/contents/icon-moreW.png" alt="" />
+                                        <span>More</span>
+                                    </div>
+                                </div>
+
                             </div>
 
                         </div>

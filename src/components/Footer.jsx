@@ -27,7 +27,7 @@ const Footer = () => {
                         <li className='bord'>FAQ</li>
                     </ul>
                 </div>
-                <div className='top'>
+                <div className='top' onClick={()=>window.scrollTo({top:0, behavior:'smooth'})}>
                     <span>top</span>
                     <img src="./images/main/icon-top.png" alt="" />
                 </div>
