@@ -206,21 +206,21 @@ export const FooterWrap = styled.footer`
     }
     @media screen and (max-width:767px){
         .inner{
-            height: 600px;
+            height: 78.2269vw;
             .top{
                 top: auto;
-                bottom: 70px;
-                left: 600px;
+                bottom: 9.1265vw;
+                left: 78.2269vw;
                 span{
                     text-align: center;
                 }
             }
             .info{
                 ul{
-                    margin-bottom: 40px;
+                    margin-bottom: 5.2151vw;
                 }
                 p.COPYRIGHT{
-                    margin-top: 65px;
+                    margin-top: 8.4746vw;
                 }
 
             }
@@ -277,7 +277,6 @@ export const Con2Wrap = styled.section`
             justify-content: center;
             .bg{
                 width: 50%;
-                /* overflow: hidden; */
                 .bgbox{
                     background-repeat: no-repeat;
                     background-position: 70% 0%;
@@ -356,7 +355,6 @@ export const Con2Wrap = styled.section`
     .pageNum{
         position: absolute;
         bottom: 40px;
-        /* left: 925px; */
         left: 50%;
         transform: translateX(-50%);
         z-index: 100;
@@ -374,7 +372,7 @@ export const Con2Wrap = styled.section`
     }
     @media screen and (max-width:1023px){
         width: 100%;
-        height: 785px;
+        height: 76.7351vw;
         .cs{
             display: none;
         }
@@ -392,33 +390,33 @@ export const Con2Wrap = styled.section`
                     }
                 }
                 .text{
-                    padding: 240px 0px 0px 110px;
+                    padding: 23.4604vw 0.0000vw 0.0000vw 10.7527vw;
                     em{
-                        font-size: 16px;
+                        font-size: 1.5640vw;
                     }
                     strong{
-                        margin-top: 10px;
-                        font-size: 50px;
-                        margin-bottom: 5px;
+                        margin-top: 0.9775vw;
+                        font-size: 4.8876vw;
+                        margin-bottom: 0.4888vw;
                     }
                     b{
-                        font-size: 30px;
+                        font-size: 2.9326vw;
                     }
                     p{
-                        font-size: 16px;
-                        margin-top: 15px;
-                        margin-bottom: 85px;
+                        font-size: 1.5640vw;
+                        margin-top: 1.4663vw;
+                        margin-bottom: 8.3089vw;
                     }
                 }
             }
         }
         .slick-prev:before{
-            bottom: -300px;
-            left: 379px;
+            bottom: -29.3255vw;
+            left: 37.0479vw;
         }
         .slick-next:before{
-            bottom: -300px;
-            left: -507px;
+            bottom: -29.3255vw;
+            left: -49.5601vw;
         }
     }
     @media screen and (max-width:767px){
@@ -520,22 +518,23 @@ position: relative;
     }
     @media screen and (max-width:1023px){
         .inner{
-            width: 680px;
+            width: 66.4712vw;
     }
     }
     @media screen and (max-width:767px){
         .inner{
+            width: 80.3129vw;
             h2{
-                font-size: 30px;
+                font-size: 3.9113vw;
                 &::after{
-                    width: 170px;
+                    width: 22.1643vw;
                 }
             }
             .conbox{
-                width: 200px;
+                width: 26.0756vw;
                 .bg{
-                    width: 200px;
-                    height: 200px;
+                    width: 26.0756vw;
+                    height: 26.0756vw;
                     
                 }
                 .imgbox{
@@ -546,10 +545,10 @@ position: relative;
                 }
                 .text{
                     h4{
-                        font-size: 16px;
+                        font-size: 2.0860vw;
                     }
                     p{
-                        font-size: 14px;
+                        font-size: 1.8253vw;
                     }
                 }
             }
@@ -658,29 +657,29 @@ export const Con4Wrap = styled.section`
             display: none;
         }
         .inner{
-            padding: 90px 60px 150px;
+            padding: 8.7977vw 5.8651vw 14.6628vw;
             h2{
-                margin-bottom: 90px;
+                margin-bottom: 8.7977vw;
             }
             ul{
-                top: 105px;
-                left: 422px;
+                top: 10.2639vw;
+                left: 41.2512vw;
                 li{
-                    margin-right: 84px;
+                    margin-right: 8.2111vw;
                 }
             }
             .content{
-                padding-left: 80px;
+                padding-left: 7.8201vw;
                 .desc{
                     p{
-                        margin-bottom: 40px;
+                        margin-bottom: 3.9101vw;
                     }
                 }
                 .imgbox{
-                    top: -20px;
-                    right: 20px;
+                    top: -1.9550vw;
+                    right: 1.9550vw;
                     img{
-                        width: 435px;
+                        width: 42.5220vw;
 
                     }
                 }
@@ -692,10 +691,10 @@ export const Con4Wrap = styled.section`
                 transform: translateY(0%);
             }
             .prevBtn{
-                left: 30px;
+                left: 2.9326vw;
             }
             .nextBtn{
-                right: 30px;
+                right: 2.9326vw;
                 transform: rotate(180deg);
             }
         }
@@ -703,35 +702,35 @@ export const Con4Wrap = styled.section`
 
     @media screen and (max-width: 767px){
         .inner{
-            padding: 40px 50px 65px;
+            padding: 5.2151vw 6.5189vw 8.4746vw;
             h2{
-                font-size: 30px;
+                font-size: 3.9113vw;
             }
             ul{
-                top: 110px;
-                left: 50px;
+                top: 14.3416vw;
+                left: 6.5189vw;
                 li{
-                    margin-right: 38px;
+                    margin-right: 4.9544vw;
                 }
             }
             .content{
-                padding-left: 0px;
+                padding-left: 0.0000vw;
                 .desc{
                     h4{
-                        margin-bottom: 25px;
-                        font-size: 25px;
+                        margin-bottom: 3.2595vw;
+                        font-size: 3.2595vw;
                     }
                     p{
-                        margin-bottom: 30px;
-                        font-size: 18px;
+                        margin-bottom: 3.9113vw;
+                        font-size: 2.3468vw;
                         font-weight: 400;
                     }
                 }
                 .imgbox{
-                    top: -10px;
-                    right: 0px;
+                    top: -1.3038vw;
+                    right: 0.0000vw;
                     img{
-                        width: 292px;
+                        width: 38.0704vw;
                     }
                 }
             }
@@ -845,24 +844,24 @@ position: relative;
         .bannerTop, .bannerBottom{
             display: block;
             width: 100%;
-            height: 240px;
+            height: 23.4604vw;
         }
         .text{
             
-            padding-top: 330px;
-            padding-bottom: 225px;
+            padding-top: 32.2581vw;
+            padding-bottom: 21.9941vw;
             strong{
                 &::before{
-                    height: 14px;
-                    width: 326px;
+                    height: 1.3685vw;
+                    width: 31.8671vw;
                 }
                 
                 &::after{
-                    height: 17px;
-                    width: 290px;
-                    bottom: 38px;
+                    height: 1.6618vw;
+                    width: 28.3480vw;
+                    bottom: 3.7146vw;
                     left: auto;
-                    right: 66px;
+                    right: 6.4516vw;
                 }
             }
             p{
@@ -872,56 +871,55 @@ position: relative;
                 }
             }
             .more{
-            margin-top: 124px;
+            margin-top: 12.1212vw;
             }
         }
         .food1{
             z-index: -10;
             img{
-                /* width: 412px; */
                 transform: scale(0.8);
                 transform-origin: 0 0 ;
             }
             .minW1024{
                 display: none;
             }
-            top: 300px;
+            top: 29.3255vw;
         }
         .food2{
-            top: 330px;
+            top: 32.2581vw;
             img{
                 transform: scale(0.75);
                 transform-origin: 100% 0%;
             }
         }
         .food3{
-            top: 1160px;
+            top: 113.3920vw;
             right: auto;
-            left: 600px;
+            left: 58.6510vw;
         }
     }
     @media screen and (max-width:767px) {
         .bannerTop, .bannerBottom{
-            height: 190px;
+            height: 24.7718vw;
         }
         .text{
-            padding-top: 240px;
-            padding-bottom: 265px;
+            padding-top: 31.2907vw;
+            padding-bottom: 34.5502vw;
             h2{
-                font-size: 30px;
+                font-size: 3.9113vw;
             }
             strong{
-                font-size: 50px;
+                font-size: 6.5189vw;
                 line-height: 2;
-                margin-bottom: 75px;
+                margin-bottom: 9.7784vw;
                 &::before{
-                    width: 263px;
-                    top: 65px;
+                    width: 34.2894vw;
+                    top: 8.4746vw;
                 }
                 &::after{
-                    width: 225px;
-                    bottom: 15px;
-                    right:105px;
+                    width: 29.3351vw;
+                    bottom: 1.9557vw;
+                    right:13.6897vw;
                 }
             }
             p{
@@ -931,24 +929,24 @@ position: relative;
                 }
             }
             .more{
-            margin-top: 75px;
+            margin-top: 9.7784vw;
             }
         }
         .food1{
-            top: 150px;
+            top: 19.5567vw;
             img{
                 transform: scale(0.5);
             }
         }
         .food2{
-            top: 200px;
+            top: 26.0756vw;
             img{
                 transform: scale(0.65);
             }
         }
         .food3{
-            top: 980px;
-            left: 350px;
+            top: 127.7705vw;
+            left: 45.6323vw;
             img{
                 transform: scale(0.75);
 
@@ -1012,33 +1010,36 @@ export const Con6Wrap = styled.section`
         .inner{
             width: 100%;
             .title{
-                padding-top:60px;
-                padding-left: 87px;
+                padding-top:5.8651vw;
+                padding-left: 8.5044vw;
             }
             .mySwiper{
                 width: 95%;
-                padding-bottom: 130px;
+                padding-bottom: 12.7077vw;
                 img{
-                    width: 235px;
+                    width: 22.9717vw;
                 }
             }
             .icon{
                 top: auto;
-                bottom:40px;
-                right: 46px;
+                bottom:3.9101vw;
+                right: 4.4966vw;
             }
         }
     }
     @media screen and (max-width:767px){
         .inner{
             .title{
-                padding-top:46px;
-                padding-left: 35px;
-                padding-bottom: 40px;
+                padding-top:5.9974vw;
+                padding-left: 4.5632vw;
+                padding-bottom: 5.2151vw;
             }
             .mySwiper{
-                width: 100%;
-                padding-left: 30px;
+                width: 93.8722vw;
+                padding-left: 3.9113vw;
+                img{
+                    width: 39.1134vw;
+                }
             }
             .icon{
                 right: auto;

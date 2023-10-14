@@ -24,7 +24,7 @@ const Con6 = () => {
                     spaceBetween={15}
                     breakpoints={{
                         0: {
-                            slidesPerView: 2.5, // 2.5개로 변경
+                            slidesPerView: 2.2, // 2.5개로 변경
                         },
                         768: {
                             slidesPerView: 4, // 4개로 변경
